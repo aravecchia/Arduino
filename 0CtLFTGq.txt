@@ -1,0 +1,79 @@
+Objetivo da Empresa *
+Definir a empresa / negócio em uma única frase declarativa.
+
+Projetos especiais e sistemas de automaćão próprios para as características da indústria brasileira.
+
+O cliente precisa automatizar seus processos industriais. Porém, estando no Brasil, seus produtos e processos são diferentes, assim como a tecnologia necessária, que é importada, cara e não se adequa aos processos e produtos brasileiros.
+Tal situaćão é crítica nos setores petrolífero e agro-industrial. Soja e cana-de-acúcar, por exemplo, são culturas muito diversas daquelas praticadas na China, Europa ou Estados Unidos, onde são desenvolvidas as tecnologias de automaćão.
+
+Caso similar: Marchesan.
+A Marchesan nasceu e cresceu rapidamente fabricando máquinas específicas para as lavouras brasileiras, quando o Sr. Marchesan percebeu que as máquinas agrícolas da época não se adequavam às lavouras brasileiras. Comećando com uma oficina mecânica, em apenas 5 anos de atividade, se tornou a referência nacional em máquinas para o setor agro-industrial, sendo que hoje não existe nenhum fazendeiro, agrônomo, tratorista ou peão rural no Brasil que não conheća ou tenha ouvido falar em Super-Tatu (a marca da terra).
+
+
+Solução proposta *
+Demonstre a proposição do seu valor da empresa para tornar a vida do cliente, melhor. Mostre onde o produto fica fi
+
+Estamos desenvolvendo sistemas de automaćão flexiveis, modulares, expansíveis, adaptáveis a inúmeras situaćões e compatíveis com outras tecnologias já em utilizaćão.
+Nosso primeiro e principal produto, em fase final de testes, chama-se "expansor analógico-digital".
+Pense num robô como o ASIMO da Honda, ou qualquer sistema de automaćão: ele tem um "cérebro" eletrônico chamado de microprocessador, que tem um "sistema nervoso" limitado, que suporta controlar apenas uns poucos sensores ou aparelhos.
+O que nós fabricamos é um "sistema nervoso" revolucionário para ele, capaz de ler mais de 500 sensores de temperatura, pressão, umidade, vazão, distância ou corrente elétrica ao mesmo tempo, ou ligar de forma programada e automática mais de 500 aparelhos de qualquer potência, incluindo motores trifásicos.
+Pode fazer isso automaticamente ou sob demanda, localmente ou a distância, por radio-frequencia e/ou pela web, com interfaces gráficas de fácil utilizaćao. Permite que o engenheiro acompanhe todo o processo de uma usina de alcool na tela do seu celular, de qualquer lugar do mundo. Ou a Petrobrás pode fabricar robôs submarinos de altíssima complexidade a um custo muito atrativo.
+Falando em custo, os componentes, ferramentas e maquinário que utilizamos são de baixíssimo custo. Não pagamos royalties e, como utilizamos tecnologia open-source, não precisamos nos preocupar com registro de patentes, exceto pelo nome da marca.
+Quase todo nosso lucro inicial está na utilizaćão de mão de obra altamente especializada. Um sistema simples, que custa 100 reais em componentes não custa menos que 3000 reais de mão de obra para ser instalado e programado. E a concorrência é praticamente zero.
+
+
+Por que agora? *
+Defina a evolução histórica da sua categoria. Defina as tendências recentes que fazem a sua solução possível.
+Apostamos 3 anos de trabalho no desenvolvimento deste sistema. Com ou sem o apoio de uma venture, ainda apostaremos mais 2 para aperfeićoa-lo.
+O Brasil está passando por uma reestruturaćão do seu parque tecnológico, a agro-indústria vem se expandindo rapidamente e a exploraćão do pré-sal ainda está em fase inicial, abrindo um grande potencial de negócios na área de automaćão e robótica.
+Ambos estes setores  devem movimentar diversas cadeias produtivas, não apenas na indústria. Mas é a indústria que tem maior demanda por tecnologia em automaćão e robótica específica para as condićões brasileiras, que não pode ser simplesmente importada e adaptada, como é nos setores de comércio e servićos.
+A indústria brasileira tem características muito próprias e tem muita fome de solućões em automaćão e robótica que se adequem a estas características específicas.
+E atualmente não encontra solućões tecnológicas adequadas a elas, muito menos mão de obra especializada para desenvolver e implementar tais solućões.
+Neste momento, apresentar uma solućão tecnológica simples, flexível, modular, com alta capacidade de processamento e ainda adaptável às mais diversas situaćões onde a automaćão e a robótica se fazem necessárias, é criar uma nova marca de referência nacional, como a Marchesan é para a agro-indústria, a Tigre para tubulaćões, ou a Votorantin para cimentos.
+Com a diferenća de que estas necessitaram de grandes investimentos e assumiram altos riscos.
+No nosso caso, o investimento é muito pequeno se comparado a outros setores, o risco é quase inexistente, e a concorrência é nossa melhor parceira, como se verá adiante.
+
+
+ Tamanho do mercado *
+Identifique / o perfil do cliente que você atende.
+
+Especialmente petróleo, agro-indústria e automaćão residencial têm muita demanda por solućões específicas que não existem no mercado, porque as características da indústria brasileira, nestes setores, diferem muito daquelas dos países do hemisfério norte onde a maior parte da tecnologia de robótica é desenvolvida.
+Uma vez que nosso sistema é modular e flexível, se adequa a qualquer situaćão, abrindo para nós um mercado exclusivo, com alto crescimento, de baixo risco e alta lucratividade.
+
+Concorrência *
+Lista de concorrentes.Vantagens competitivas.
+
+
+Zero.
+Trabalhando com open-source, os únicos possíveis concorrentes são nossos parceiros ou clientes: temos acesso às tecnologias deles e eles às nossas.
+Aliás, toda a tecnologia que utilizamos já existe, está lá na Internet, de graća. Pode pegar, é sua se você for capaz de fazê-la funcionar. Nós duvidamos que consiga.
+Pode parecer estranho falarmos dessa forma para um futuro investidor, mas se você tem dúvidas a este respeito confira os lucros em 2013 de uma empresa chamada Red Hat.
+A IBM acaba de injetar U$ 1 BI, a fundo perdido, nesta forma de fazer negócios criando tecnologia livre de patentes e disponível para que interessados possam utilizá-la. 
+E está disposta a nos fornecer tecnologia de ponta em sistemas relacionados aos nossos, pela simbólica quantia de U$ 500.
+O valor de um aparelho eletrônico qualquer é absurdamente alto. Mas os componentes são ridiculamente baratos.
+A diferenća no custo é justamente onde estamos no focando: mão de obra altamente qualificada que possui alta demanda de mercado.
+É um sistema eletrônico que as empresas precisam muito, mas nenhuma tem.
+A tecnologia está disponível e aberta a todos, mas pouquissimas pessoas são capazes de dominar.
+E ainda assim, estes concorrentes em potencial vão preferir comprar os nossos componentes, pois vão lucrar muito mais na instalaćão/programaćão destes do que competindo pela sua fabricaćão, e vão se focar em nichos de mercado diferentes dos nossos. De quebra, terão interesse em contribuir expontaneamente com melhorias ao nosso sistema, pois assim alavancarão seus próprios negócios em sistema de parceria, colaboraćão e compartilhamento de tecnologia.
+Mas nós seremos em pouco tempo a referência no mercado, porque escolhemos o momento certo de comećar a fabricar o produto certo, capitalizando a empresa com o lucro da mão-de-obra num primeiro momento, e futuramente vendendo componentes para nossos parceiros e concorrentes.
+
+
+Produtos/Serviços *
+Linha de produtos (fator de forma, funcionalidade, características, arquitetura, propriedade intelectual). Roteiro
+
+É o "sistema nervoso" para qualquer tipo de automaćão industrial, comercial e residencial.
+Ponto.
+O investidor só verá o produto final e conhecerá suas caracteristicas quando tivermos um contrato assinado.
+
+Modelo de receita, Preços, O tamanho da conta média e / ou lifetime value, Vendas e modelo de distribuição, 
+
+O custo de fabrićão de uma placa de circuitos é cerca de 50 a 100 reais, dependendo do modelo.
+Poderíamos vendê-la a 100 e ainda assim a quantidade vendida não justificaria sua fabricaćão.
+Melhor seria vendê-la sem lucro ou até presenteá-la, para que nossos colaboradores faćam nossa divulgaćão nos lugares certos.
+Porém, o prećo de instalaćão e programaćão não custa menos que 3000 reais, para apenas 3 dias de trabalho. Lucros de 3000%. Uma indústria que utilizar 10 placas vai pagar tranquilamente 100 mil reais para vê-la funcionando.
+Mas o custo, para nós, dificilmente sobe além de 5 mil. Lucros de 20.000%.
+Como eu disse, a mão-de-obra é altamente qualificada e muito valorizada. É a fonte de toda a receita significativa.
+A infraestrutura inicial necessária: um galpão de 100 metros quadrados, computadores, internet, poucas ferramentas, mesas, prateleiras, cadeira, telefone, celular, carro e uma impressora modificada.
+Eu diria que um investimento de R$ 300 mil pode retornar em dois anos, apenas, com apenas um trabalho pequeno de R$ 15 mil por mês, com baixo risco e grande probabilidade de sucesso: estamos falando de robótica, afinal.
+Os senhores tem aqui a oportunidade de investir na próxima grande empresa tecnológica do Brasil ou se lamentar depois.
+Bem vindos à CyberOhm.

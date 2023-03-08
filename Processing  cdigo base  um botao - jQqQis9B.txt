@@ -1,0 +1,121 @@
+/*
+*  pa_PushButton
+ *  
+ *  Reads the values which represent the state of a push button 
+ *  from the serial port and draws a graphical representation.
+ * 
+ *  This file is part of the Arduino meets Processing Project.
+ *  For more information visit http://www.arduino.cc.
+ *
+ *  copyleft 2005 by Melvin Ochsmann for Malm� University
+ *
+ */
+
+// importing the processing serial class
+import processing.serial.*;
+
+// the display item draws background and grid
+DisplayItems di;
+
+// definition of window size and framerate
+int xWidth = 512;
+int yHeight = 256;
+int fr = 24;
+
+// attributes of the display 
+boolean bck = true;
+boolean grid = true;
+boolean g_vert = false;
+boolean g_horiz = true;
+boolean g_values = true;
+boolean output = false;
+
+// variables for serial connection, portname and baudrate have to be set 
+Serial port;
+String portname = "/dev/ttyACM0";  
+int baudrate = 9600;
+int value = 0;  
+
+// variables to draw graphics 
+int actVal = 0;
+int num = 6;
+float valBuf[] = new float[num];  
+int i;
+
+// lets user control DisplayItems properties and value output in console
+void keyPressed() {
+  if (key == 'b' || key == 'B') bck=!bck;  // background black/white
+  if (key == 'g' || key == 'G') grid=!grid;  // grid ON/OFF 
+  if (key == 'v' || key == 'V') g_values=!g_values;  // grid values ON/IFF   
+  if (key == 'o' || key == 'O') output=!output;   //turns value output ON/OFF
+}
+
+void setup() {
+  // set size and framerate
+  size(xWidth, yHeight); 
+  frameRate(fr);
+  // establish serial port connection      
+  port = new Serial(this, portname, 9600);
+  println(port);
+  // create DisplayItems object
+  di = new DisplayItems();
+  // clear value buffer
+  for (i=0; i < num; i++)
+  {
+    valBuf[0] = 0;
+  }
+}
+
+void drawPushButtonState()
+{
+  // read through the value buffer
+  // and shift the values to the left
+  for (i=1; i < num; i++)
+  {
+    valBuf[i-1] = valBuf[i];
+  } 
+  // add new values to the end of the array
+  valBuf[num-1] = actVal;
+  noStroke();
+  // reads through the value buffer and draws lines
+  for (int i=0; i < num; i=i+2)
+  {
+    fill(int((valBuf[i]*255)/height), int((valBuf[i]*255)/height), 255); 
+    rect(0, height-valBuf[i], width, 3);
+    fill(int((valBuf[i+1]*255)/height), 255, 0 ); 
+    rect(0, height-valBuf[i+1], width, 3);
+  }
+  // display value
+  fill(((bck) ? 185 : 75));
+  text( ""+(actVal), 96, height-actVal);
+}
+
+void serialEvent(int serial)
+{   
+  // if serial event is 'H' actVal is increased
+  if (serial=='H')
+  {   
+    actVal = (actVal < height - (height/16)) ? (actVal + int(actVal/(height/2))+1) : (actVal = height - (height/(height/2))); 
+    if (output) println("Value read from serial port is 'H' - actualValue is now "+actVal);
+  }
+  else
+  {
+    // if serial event is 'L' actVal is decreased
+    actVal = (actVal > 1) ? (actVal = actVal - int(actVal/64)-1) : (actVal=0);
+    if (output) println("Value read from serial port is 'L' - actualValue is now "+actVal);
+  }
+}
+
+void draw()
+{
+  // listen to serial port and trigger serial event  
+  while (port.available () > 0)
+  {
+    value = port.read();
+    serialEvent(value);
+  }
+  // draw background, then PushButtonState and finally rest of DisplayItems                      
+  di.drawBack();
+  drawPushButtonState();
+  di.drawItems();
+}
